@@ -67,20 +67,6 @@ A robust machine learning pipeline to detect fraudulent transactions using real-
 - Robust logging and error handling
 - Unit tests for reliability
 
-## Directory Structure
-- `backend.py` - All backend logic (Flask API + ML pipeline)
-- `streamlit_app.py` - Web demo app (all frontend logic)
-- `retrain.py` - Self-improving (auto-retrain) script
-- `real_time_feed.py` - Real-time transaction feed simulator
-- `config.yaml` - Configuration file
-- `tests/` - Unit tests
-- `requirements.txt` - Dependencies
-- `.gitignore` - Git ignore rules
 
-## Extending
-- Add more features/models in `backend.py`
-- Add more UI features in `streamlit_app.py`
-- Add more tests in `tests/`
 
-## Author
-Your Name Here
+
