@@ -1,0 +1,11 @@
+# Sample configuration file for Fraud Detection
+# Edit these values or override with command line args
+
+dataset_path: data/creditcard.csv
+model: random_forest
+quick_mode: true
+quick_mode_nrows: 20000
+tune: true
+skip_smote: true
+random_seed: 42
+output_dir: outputs
